@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    float x, y;
+
+    // Read inputs
+    scanf("%d %d", &a, &b);
+    scanf("%f %f", &x, &y);
+
+    // Calculate sum and difference for integers
+    int sum_int = a + b;
+    int diff_int = a - b;
+
+    // Calculate sum and difference for floats
+    float sum_float = x + y;
+    float diff_float = x - y;
+
+    // Print outputs
+    printf("%d %d\n", sum_int, diff_int);
+    printf("%.1f %.1f\n", sum_float, diff_float);
+
+    return 0;
+}
